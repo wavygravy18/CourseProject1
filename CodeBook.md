@@ -9,9 +9,9 @@ Descriptions of the column names:<br />
 2. activity: values of walking, walking upstairs, walking 
 downstairs, sitting, standing, and laying that indicate what activity the subject was performing
 
-3. averagetimeBodyAccelarationmeanX: the average of timeBodyAccelarationmeanX for each activity and each subject
+3. averagetimeBodyAccelarationmeanX: the average of timeBodyAccelarationmeanX for each activity and each subject, units are Hz
 	
-4. to 81: All of these columns contain averages of the variable that immediately follows the word “average” in the column name for each activity and subject
+4. to 81: All of these columns contain averages of the variable that immediately follows the word “average” in the column name for each activity and subject, units are Hz
 
 
 ##Complete List of Column Names
