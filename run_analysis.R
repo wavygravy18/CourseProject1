@@ -99,6 +99,8 @@ colnames3to81 <- df1colnames[3:81]
 colnames3to81 <- paste("average", colnames3to81, sep="")
 df1colnames = c("subject", "activity", colnames3to81)
 ## df1 is the second, independent tidy data set
+## Columns are subject, activity, then the averages of the features variables
+## grouped by subject and activity
 names(df1) <- df1colnames
 ## Saves the data frame as a txt file in your working directory
 write.table(df1, file="./dataset.txt", row.name=FALSE)
